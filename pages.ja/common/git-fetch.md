@@ -27,6 +27,6 @@
 
 `git fetch --deepen 2`
 
-- ブランチを切り替えずに `main` ブランチを更新する (`git pull` と同等):
+- チェックアウトされていないローカルの `main` ブランチを、リモートの `main` からfast-forward更新する:
 
 `git fetch {{origin}} main:main`
