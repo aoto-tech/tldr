@@ -1,6 +1,6 @@
 # aws dynamodb
 
-> 予測可能なパフォーマンスとシームレスなスケーラビリティを備えた高速 NoSQL データベースである AWS Dynamodb データベースを操作します。
+> 予測可能なパフォーマンスとシームレスなスケーラビリティを備えた高速 NoSQL データベースである AWS DynamoDB データベースを操作します。
 > 詳細情報: <https://docs.aws.amazon.com/cli/latest/reference/dynamodb/>。
 
 - テーブルを作成します:
