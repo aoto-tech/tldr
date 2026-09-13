@@ -1,6 +1,6 @@
 # aws workmail
 
-> Amazon WorkMail を管理します。
+> Amazon WorkMail を管理する。
 > 詳細情報: <https://docs.aws.amazon.com/cli/latest/reference/workmail/>。
 
 - すべての WorkMail 組織を一覧表示する:

@@ -1,29 +1,29 @@
 # aws glue
 
 > AWS Glue の CLI。
-> AWS Glue サービスのパブリック エンドポイントを定義します。
+> AWS Glue サービスのパブリックエンドポイントを定義する。
 > 詳細情報: <https://docs.aws.amazon.com/cli/latest/reference/glue/>。
 
-- ジョブのリストを表示します:
+- ジョブを一覧表示する:
 
 `aws glue list-jobs`
 
-- ジョブを開始します:
+- ジョブを開始する:
 
 `aws glue start-job-run --job-name {{job_name}}`
 
-- ワークフローの実行を開始します:
+- ワークフローの実行を開始する:
 
 `aws glue start-workflow-run --name {{workflow_name}}`
 
-- トリガーのリスト:
+- トリガーを一覧表示する:
 
 `aws glue list-triggers`
 
-- トリガーを開始します:
+- トリガーを開始する:
 
 `aws glue start-trigger --name {{trigger_name}}`
 
-- 開発エンドポイントを作成します:
+- 開発エンドポイントを作成する:
 
 `aws glue create-dev-endpoint --endpoint-name {{name}} --role-arn {{role_arn_used_by_endpoint}}`

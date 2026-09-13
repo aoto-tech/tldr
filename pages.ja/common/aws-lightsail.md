@@ -1,32 +1,32 @@
 # aws lightsail
 
-> Amazon Lightsail リソースを管理します。
+> Amazon Lightsail リソースを管理する。
 > 詳細情報: <https://docs.aws.amazon.com/cli/latest/reference/lightsail/>。
 
-- すべての仮想プライベート サーバーまたはインスタンスをリストします:
+- すべての仮想プライベートサーバーまたはインスタンスを一覧表示する:
 
 `aws lightsail get-instances`
 
-- すべてのバンドル (インスタンス プラン) をリストします:
+- すべてのバンドル (インスタンスプラン) を一覧表示する:
 
 `aws lightsail list-bundles`
 
-- 利用可能なすべてのインスタンス イメージまたはブループリントをリストします:
+- 利用可能なすべてのインスタンスイメージまたはブループリントを一覧表示する:
 
 `aws lightsail list-blueprints`
 
-- インスタンスを作成します:
+- インスタンスを作成する:
 
 `aws lightsail create-instances --instance-names {{name}} --availability-zone {{region}} --bundle-id {{nano_2_0}} --blueprint-id {{blueprint_id}}`
 
-- 特定のインスタンスの状態を出力します:
+- 特定のインスタンスの状態を出力する:
 
 `aws lightsail get-instance-state --instance-name {{name}}`
 
-- 特定のインスタンスを停止します:
+- 特定のインスタンスを停止する:
 
 `aws lightsail stop-instance --instance-name {{name}}`
 
-- 特定のインスタンスを削除します:
+- 特定のインスタンスを削除する:
 
 `aws lightsail delete-instance --instance-name {{name}}`
