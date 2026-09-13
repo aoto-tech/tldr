@@ -17,4 +17,4 @@
 
 - すべてのリモートから最新の変更を取得します:
 
-`jj git fetch --all-remote`
+`jj git fetch --all-remotes`

@@ -15,6 +15,6 @@
 
 `jj new {{revset1 revset2 ...}}`
 
-- 指定されたリビジョンの前後に新しい空の変更を作成します:
+- 指定されたリビジョン間に新しい空の変更を挿入します:
 
 `jj new {{[-B|--insert-before]}} {{revsets}} {{[-A|--insert-after]}} {{revsets}}`

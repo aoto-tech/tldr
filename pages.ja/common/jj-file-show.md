@@ -11,7 +11,7 @@
 
 `jj file show {{[-r|--revision]}} {{revision}} {{path/to/file}}`
 
-- ディレクトリの下にあるすべてのファイルを再帰的に出力します:
+- ディレクトリ以下のファイル内容を再帰的に出力します:
 
 `jj file show {{path/to/directory}}`
 

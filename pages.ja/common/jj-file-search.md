@@ -3,11 +3,11 @@
 > `jj` リポジトリ内のファイル内のコンテンツを検索します。
 > 詳細情報: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-file-search>。
 
-- 作業コピーで `regex` を含むファイルを検索します:
+- 作業コピー内のファイルから `regex` に一致する行を検索します:
 
 `jj file search {{[-p|--pattern]}} "{{regex}}"`
 
-- glob パターンを含むファイルを検索します:
+- 作業コピー内のファイルから glob パターンに一致する行を検索します:
 
 `jj file search {{[-p|--pattern]}} "{{glob:*pattern*}}"`
 

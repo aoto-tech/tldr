@@ -4,7 +4,7 @@
 > 注: `--colocate` が使用されない限り、それは有効な Git リポジトリではないため、`git` コマンドは使用できません。
 > 詳細情報: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git-clone>。
 
-- Git リポジトリのクローンを基にした新しいリポジトリを新しいディレクトリに作成します (デフォルトのディレクトリはリポジトリ名です):
+- Git リポジトリのクローンを基にした新しいリポジトリを指定されたディレクトリに作成します:
 
 `jj git clone {{source}} {{path/to/directory}}`
 

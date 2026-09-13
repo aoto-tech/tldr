@@ -3,7 +3,7 @@
 > Git リモートにプッシュします。
 > 詳細情報: <https://docs.jj-vcs.dev/latest/cli-reference/#jj-git-push>。
 
-- ブックマークを指定されたリモートにプッシュします (デフォルトは `git.push` 設定):
+- ブックマークを指定されたリモートにプッシュします:
 
 `jj git push {{[-b|--bookmark]}} {{bookmark}} --remote {{remote}}`
 
@@ -27,6 +27,6 @@
 
 `jj git push {{[-c|--change]}} {{revset}}`
 
-- 指定された名前でリビジョンをプッシュします:
+- 指定した名前でリビジョンを指すブックマークを作成し、リモートにプッシュします:
 
 `jj git push --named {{name}}={{revision}}`
