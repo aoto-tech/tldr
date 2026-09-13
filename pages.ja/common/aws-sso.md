@@ -3,7 +3,7 @@
 > シングルサインオン (SSO) 認証情報を使用して AWS リソースへのアクセスを管理する。
 > 詳細情報: <https://docs.aws.amazon.com/cli/latest/reference/sso/>。
 
-- SSO セッションを開始し、アクセストークンを更新する。 `aws configure sso` を使用したセットアップが必要です:
+- SSO セッションを開始し、アクセストークンを更新する (`aws configure sso` によるセットアップが必要):
 
 `aws sso login`
 
@@ -13,7 +13,7 @@
 
 - ユーザーがアクセスできるすべての AWS アカウントを一覧表示する:
 
-`aws sso list-accounts`
+`aws sso list-accounts --access-token {{token}}`
 
 - 特定の AWS アカウントのユーザーがアクセスできるすべてのロールを一覧表示する:
 
